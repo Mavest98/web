@@ -1,0 +1,154 @@
+.profile-picture{
+    width: fit-content;
+
+
+}
+body {
+    background-color: black;
+    background-image: url("./images/back.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    
+}   
+    
+.ST{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space;
+
+}
+.ST0{
+    margin-bottom: 50px;
+    list-style: none;
+    list-style: none;
+    background-color: rgb(13, 79, 122);
+    color: white;
+    padding: 10px 15px;
+    font-weight: initial;
+    font-family: 'Courier New', Courier, monospace;
+    transition:0.5s;
+    cursor:progress; 
+}
+.ST1{
+    margin-bottom: 50px;
+    list-style: none;
+    list-style: none;
+    background-color: rgb(15, 156, 137);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    transition:0.5s;
+    cursor:progress; 
+}   
+.ST2{
+    margin-bottom: 50px;
+    list-style: none;
+    list-style: none;
+    background-color: rgb(221, 15, 15);
+    color: rgb(195, 207, 26);
+    padding: 10px 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition:0.5s;
+    cursor:help; 
+    
+}
+.ST3{
+    margin-bottom: 50px;
+    list-style: none;
+    background-color: rgb(95, 44, 7);
+    color: rgb(54, 168, 44);
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    transition:0.5s;
+    cursor:help;
+    
+   
+   
+}
+.ST4 {
+    margin-bottom: 50px;
+    list-style: none;
+    background-color: rgb(192, 145, 16);
+    color: rgb(109, 3, 3);
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-style: italic;
+    transition:0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    cursor: zoom-in; 
+}
+.ST5{
+    margin-bottom: 50px;
+    list-style: none;
+    list-style: none;
+    background-color: rgb(4, 187, 80);
+    color: rgb(18, 125, 212);
+    padding: 10px 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition:0.5s;
+    cursor:pointer; 
+
+}
+
+.ST0:hover{
+    background-color: crimson;
+    
+}
+.ST1:hover{
+    background-color: rgb(245, 115, 10);
+    
+}
+.ST2:hover{
+    background-color: rgb(10, 143, 121);
+    
+}
+.ST3:hover{
+    background-color: rgb(10, 45, 141);
+    
+}
+.ST4:hover{
+    background-color: rgb(36, 88, 109);
+    
+}
+
+.ST5:hover{
+    background-color: rgb(194, 101, 14);
+    
+}
+
+
+h1{
+    color: rgb(95, 173, 5);
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    cursor:pointer; 
+
+}
+.list-container {
+    vertical-align: top;
+
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.SB-container{
+    display:  flex;
+    
+}
