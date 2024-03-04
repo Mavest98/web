@@ -1,0 +1,23 @@
+body {
+    background-color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+
+}
+.info{
+    width: 400px; 
+
+}
+.info-container {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 400px; 
+}
+h1{
+    background-color: rgb(8, 138, 99);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+    color: white;
+    
+}
+.cal {
+    background-color: rgb(13, 108, 172);
+    color: white;
+    padding: 10px 20px;
+}

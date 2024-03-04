@@ -1,21 +1,24 @@
 .profile-picture{
     width: fit-content;
+    border-radius: 40px;
 
 
 }
 body {
     background-color: black;
-    background-image: url("./images/back.jpg");
-    background-size: contain;
+    background-image: url(./images/20230619_102511\ \(2\).jpg);
+    background-size:contain;
     background-repeat: repeat;
     background-position: center;
+    border-radius: 40px;
+    display: block;
     
 }   
     
 .ST{
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    display: block;
+    
 
 
 }
@@ -35,20 +38,27 @@ body {
     padding: 10px 15px;
     font-weight: initial;
     font-family: 'Courier New', Courier, monospace;
-    transition:0.5s;
-    cursor:progress; 
+    transition: 1s;
+    cursor:pointer; 
+    border: none;
+    border-radius: 40px;
+    margin-right: 10px;
+    
 }
 .ST1{
     margin-bottom: 50px;
     list-style: none;
     list-style: none;
-    background-color: rgb(15, 156, 137);
+    background-color: rgb(24, 209, 178);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
     transition:0.5s;
-    cursor:progress; 
+    cursor:pointer; 
+    border: none;
+    border-radius: 40px;
+    margin-right: 10px;
 }   
 .ST2{
     margin-bottom: 50px;
@@ -60,7 +70,10 @@ body {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     transition:0.5s;
-    cursor:help; 
+    cursor:pointer; 
+    border: none;
+    border-radius: 40px;
+    margin-right: 10px;
     
 }
 .ST3{
@@ -73,7 +86,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     transition:0.5s;
-    cursor:help;
+    cursor:pointer;
+    border: none;
+    border-radius: 40px;
+    margin-right: 10px;
     
    
    
@@ -88,7 +104,10 @@ body {
     font-style: italic;
     transition:0.5s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
-    cursor: zoom-in; 
+    cursor: pointer; 
+    border: none;
+    border-radius: 40px;
+    margin-right: 10px;
 }
 .ST5{
     margin-bottom: 50px;
@@ -101,7 +120,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     transition:0.5s;
     cursor:pointer; 
+    border: none;
+    border-radius: 40px;
+    border-color: chocolate;
+    margin-right: 10px;
 
+  
 }
 
 .ST0:hover{
@@ -147,8 +171,22 @@ h1{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 40px;
 }
 .SB-container{
     display:  flex;
-    
+    justify-content: baseline;
+    flex-direction: row;
+    justify-self: end;
+    cursor: context-menu;
+    padding:  10px;
+
+}
+.DJ1 {
+    border-radius: 40px;
+    text-decoration: double;
+}
+ul a {
+    text-decoration: none;
+    list-style: none;
 }
