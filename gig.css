@@ -13,18 +13,40 @@
     
 }
 .div2 {
-    background-color: rgb(35, 224, 224);
-    background-image: url(./images/Untitled.png);
+    background-color: rgb(159, 228, 228);
+   
     align-items: center;
+    
+
+   
+}
+.div2 .no{
+    
+        height: 300px;
+        padding: auto;
+        
 }
 .div3 {
-    background-color: rgb(111, 189, 39);
+    background-color: rgb(63, 65, 61);
     
+    
+}
+.div3 .no{
+    
+        image-resolution: 40px;
+        height: 300px;
+        
     
 }
 .div4 {
     background-color: rgb(185, 73, 22);
+    
+        image-resolution: 40px;
+        height: 300px;
+        
+    
 }
+
 body {
     background-color: crimson;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
