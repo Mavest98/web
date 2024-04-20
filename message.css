@@ -1,9 +1,15 @@
+.head {
+    border-radius: 50px;
+}
 body {
     background-color: rgb(10, 143, 121);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
     background-color: rgb(16, 96, 150);
+    border-radius: 40px;
+    text-shadow: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
     padding: 10px 20px;
     color: white;

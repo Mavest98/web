@@ -1,3 +1,6 @@
+.head {
+    border-radius: 20px;
+}
 .grid-container {
     display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -25,6 +28,7 @@
    object-position: top;
    
     background-image: url('images/Vs\ bck\ r.jpg');
+    pointer-events: fill;
    
    
 }
@@ -38,15 +42,19 @@
 .div4 {
     background-color: rgb(22, 20, 18);
     background-image: url('images/Vs\ bck\ r.jpg');
+    opacity: 50px;
         
 }
 
 
 body {
     background-color: crimson;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
+    opacity: 50px;
+    border-radius: 20px;
     background-color: rgb(59, 12, 32);
     padding: 10px 20px;
     color: white;
