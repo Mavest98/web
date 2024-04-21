@@ -3,6 +3,9 @@
     height: 80px;
     border-radius: 50%;
     margin-right: 10px;
+    filter: saturate(100px);
+    filter:blur(0.4px) ;
+    
     
 
 
@@ -32,11 +35,11 @@ body {
 
 }
 .ST0{
-    margin-bottom: 50px;
+    
     list-style: none;
     list-style: none;
-    background-color: rgb(13, 79, 122);
-    color: white;
+    
+    color: rgb(126, 13, 13);
     padding: 10px 15px;
     font-weight: initial;
     font-family: 'Courier New', Courier, monospace;
@@ -44,14 +47,13 @@ body {
     cursor:pointer; 
     border: none;
     border-radius: 40px;
-    margin-right: 10px;
     
 }
 .ST1{
-    margin-bottom: 50px;
+   
     list-style: none;
     list-style: none;
-    background-color: rgb(24, 209, 178);
+    
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     font-weight: bolder;
@@ -60,7 +62,7 @@ body {
     cursor:pointer; 
     border: none;
     border-radius: 40px;
-    margin-right: 10px;
+    
 }   
 .ST2{
     /* margin-bottom: 50px; */
@@ -75,13 +77,13 @@ body {
     cursor:pointer; 
     border: none;
     border-radius: 40px;
-    /* margin-right: 10px; */
+
     
 }
 .ST3{
-    margin-bottom: 50px;
+  
     list-style: none;
-    background-color: rgb(95, 44, 7);
+  
     color: rgb(54, 168, 44);
     padding: 10px 15px;
     font-weight: bolder;
@@ -91,17 +93,17 @@ body {
     cursor:pointer;
     border: none;
     border-radius: 40px;
-    margin-right: 10px;
+    
     
    
    
 }
 .ST4 {
-    margin-bottom: 50px;
+
     list-style: none;
-    background-color: rgb(192, 145, 16);
+   
     color: rgb(109, 3, 3);
-    padding: 10px 15px;
+
     font-weight: bolder;
     font-style: italic;
     transition:0.5s;
@@ -109,7 +111,7 @@ body {
     cursor: pointer; 
     border: none;
     border-radius: 40px;
-    margin-right: 10px;
+   
 }
 .ST5 a{
     text-decoration: none;
@@ -118,7 +120,7 @@ body {
     list-style: none;
     /* background-color: rgb(4, 187, 80); */
     color: rgb(18, 125, 212);
-    padding: 10px 15px;
+
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     transition:0.5s;
@@ -205,15 +207,15 @@ position: fixed;
 top: 0;
 left: 0;
 right: 0;
-padding: 18px;
+padding: 7px;
 z-index: 1;
+
 }
 .left{
 display: flex;
 width: 200px;
 align-items: center;
-
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .middle{
 /* background-color: red; */
@@ -230,6 +232,8 @@ justify-content: center;
 width: 200px;
 display: flex;
 align-items:center ;
+padding-left: 14%;
+margin-right: 400px;
 }
     
 #Search-box{
@@ -237,6 +241,7 @@ align-items:center ;
  outline: none;
 padding: 6px;
 width: 200px;
+
 }
 .Search-btn{
    border-style: none;
@@ -252,6 +257,31 @@ width: 200px;
     margin-left: 30px;
 }
 h1{
-    width: 100px;
-    white-space: nowrap;
+    /* width: 100px;
+    white-space: nowrap; */
+}
+h2{
+    /* font-family: Arial, Helvetica, sans-serif;
+    text-align: center; */
+    /* white-space: pre-line; */
+}
+.text h2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   white-space: pre-wrap;
+    /* padding-left: 30px; */
+    padding-bottom:0 ;
+    /* color: green; */
+}
+.profile-picture:hover{
+    box-shadow: 10px 10px 10px rgba(34, 60, 80, 0.16);
+    transition: box-shadow 0.15s;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: medium;
 }
