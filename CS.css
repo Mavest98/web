@@ -243,6 +243,8 @@ width: 200px;
    padding: 6px;
    outline: none;
    font-family: 'Times New Roman', Times, serif;
+   cursor: pointer;
+   
     
 }
 .Search-btn::placeholder{
