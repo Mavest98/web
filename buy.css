@@ -1,0 +1,86 @@
+body {
+    background-color: whitesmoke;
+    color:white;
+
+    display: grid;
+    font-weight: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: rgb(75, 138, 180);
+    opacity: 40px;
+    
+    padding: 10px 20px;
+    color: white;
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    /* width: 300px; */
+    height: 300px;
+    object-fit: top;
+    object-position: right;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+}
+.Mixes{
+    background-color: coral;
+    color: white;
+    border-radius: 20px;
+    border: moccasin;
+    cursor: pointer;
+    margin-top: 39px;
+    margin: 34px;
+    height: 50px;
+    border-style: solid;
+
+
+}
+.pre-order{
+    background-color: rgb(151, 209, 16);
+    color: white;
+    border-radius: 20px;
+    border: rgb(242, 192, 255);
+    cursor: pointer;
+    margin-top: 39px;
+    margin: 34px;
+    height: 50px;
+    border-style: solid;
+
+
+}
+
+
+.Latest-Tracks{
+    background-color: rgb(33, 99, 187);
+    color: white;
+    border-radius: 20px;
+    border: rgb(84, 255, 190);
+    cursor: pointer;
+    margin-top: 39px;
+    margin: 34px;
+    height: 50px;
+    border-style: solid;
+
+}
+
+.Mixes:hover{
+    opacity: s;
+    background-color:  rgb(116, 176, 233);
+}
+
+.Latest-Tracks:hover{
+    /* color: black; */
+    background-color:  rgb(116, 176, 233);
+}
+
+.pre-order:hover{
+    background-color:  rgb(116, 176, 233);
+}
+.Search-bar{
+    font-size: 20px;
+    margin-left: 12px;
+}
