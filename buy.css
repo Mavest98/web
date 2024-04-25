@@ -1,13 +1,13 @@
 body {
-    background-color: whitesmoke;
+    background-color:whitesmoke ;
     color:white;
 
-    display: grid;
+    display: flex;
     font-weight: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
 h1{
-    background-color: rgb(75, 138, 180);
+    background-color: rgb(40, 84, 114);
     opacity: 40px;
     
     padding: 10px 20px;
@@ -36,6 +36,7 @@ h1{
     margin: 34px;
     height: 50px;
     border-style: solid;
+    width: 80px;
 
 
 }
@@ -49,6 +50,8 @@ h1{
     margin: 34px;
     height: 50px;
     border-style: solid;
+    width: 80px;
+
 
 
 }
@@ -64,7 +67,7 @@ h1{
     margin: 34px;
     height: 50px;
     border-style: solid;
-
+    width: 80px;
 }
 
 .Mixes:hover{
@@ -83,4 +86,45 @@ h1{
 .Search-bar{
     font-size: 20px;
     margin-left: 12px;
+    width: 200px;
+
+}
+
+#Search-box{
+border-style: none;
+outline: none;
+padding: 6px;
+width: 200px;
+}
+
+.s-btn{
+
+
+padding: 6px;
+flex: 1;
+margin-left: 70px;
+margin-right: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+border-radius: none;
+border-style: none;
+outline: none;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/* .s-btn:hover{
+    cursor: help;
+    opacity: 0.9;
+    box-shadow: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.9);
+} */
+
+.Search-btn{
+    border-style: none;
+    padding: 6px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+        
 }

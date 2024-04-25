@@ -1,0 +1,62 @@
+body{
+    display: inline-block;
+
+    border-color: aqua;
+    background-color: antiquewhite;
+}
+
+.btn1{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 24px;
+    background-color: brown;
+    color: white;
+}
+.btn2{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 24px;
+    background-color: aqua;
+    color: white;
+}
+.btn3{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 24px;
+    color: white;
+    background-color: rgb(73, 15, 121);
+}
+.btn4{
+    border: none;
+    border-radius: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    background-color: aquamarine;
+}
+
+.btn1:hover{
+    background-color: rgb(184, 172, 8);
+}
+
+.btn2:hover{
+    background-color: rgb(32, 211, 202);
+}
+
+.btn3:hover{
+    background-color: rgb(37, 76, 204);
+}
+
+.btn4:hover{
+    
+    background-color: coral;
+}
+
+

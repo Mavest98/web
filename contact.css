@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(219, 85, 51);
+    display: inline-flexbox;
+    background-color: rgb(218, 157, 142);
     color:white;
     font-weight: 100px;
     font-family: 'Times New Roman', Times, serif;
@@ -10,6 +11,6 @@ h1{
     
     padding: 10px 20px;
     color: white;
-    display:inline-block;
+    /* display: list-item; */
     font-family: Arial, Helvetica, sans-serif;
 }
